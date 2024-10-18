@@ -35,6 +35,15 @@
 
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 100px;
+}
+
 
 
 
@@ -99,6 +108,36 @@
     width: 100%;
 }
 
+/* team and features related styles */
+.teams {
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-features {
+    margin-left: 100px;
+    max-width: 520px;
+}
+
+.quick-list {
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+
+}
+
+#feature {
+    color: rgb(255, 144, 14);
+    font-weight: 700;
+}
+
+.feature-title {
+    font-size: 2rem;
+}
 
 
 /* responsive media query */
