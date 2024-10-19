@@ -265,6 +265,19 @@ main>section {
 }
 
 
+/* footer styles */
+.footer {
+    max-width: 1440px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+
 
 
 /* responsive media query */
@@ -303,6 +316,12 @@ main>section {
     #experience-badge {
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    .footer {
+        max-width: auto;
+        font-size: 0.5rem;
+        margin: 40px auto 0;
     }
 }
 
